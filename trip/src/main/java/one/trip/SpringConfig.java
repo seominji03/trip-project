@@ -14,14 +14,4 @@ public class SpringConfig {
     public SpringConfig(DataSource dataSource) {
         this.dataSource = dataSource;
     }
-    /*@Bean
-    public MemberService memberService() {
-        return new MemberService(new JdbcTemplateMemberRepository(dataSource));
-    }
-    /*@Bean
-    public MemberRepository memberRepository() {
-// return new MemoryMemberRepository();
-// return new JdbcMemberRepository(dataSource);
-        return new JdbcTemplateMemberRepository(dataSource);
-    }*/
 }
