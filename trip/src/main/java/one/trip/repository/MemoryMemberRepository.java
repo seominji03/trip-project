@@ -1,4 +1,4 @@
-package one.trip.repository;
+/*package one.trip.repository;
 
 import one.trip.domain.Member;
 import org.springframework.stereotype.Repository;
@@ -38,3 +38,4 @@ public class MemoryMemberRepository implements MemberRepository{
         store.clear();
     }
 }
+*/
