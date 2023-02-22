@@ -1,3 +1,7 @@
+/*
+
+디비에 저장하기전 기능 테스트
+
 package one.trip.repository;
 
 import one.trip.domain.Member;
@@ -70,4 +74,4 @@ public class MemoryMemberRepositoryTest {
         //then(두개가 저장되었는지 확인)
         assertThat(result.size()).isEqualTo(2);
     }
-}
+}*/

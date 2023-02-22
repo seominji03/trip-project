@@ -1,9 +1,13 @@
 package one.trip.domain;
 
+import java.sql.Timestamp;
+import java.time.LocalDateTime;
+
 public class Member {
     private Long idx;
     private String id;
     private String pw;
+    private Timestamp accessDate;
 
     public Long getIdx() {
         return idx;
@@ -27,5 +31,14 @@ public class Member {
 
     public void setPw(String pw) {
         this.pw = pw;
+    }
+
+    public Timestamp getAccessDate() {
+        return accessDate;
+    }
+
+    public Object setAccessDate() {
+        this.accessDate = accessDate;
+        return Timestamp.valueOf(LocalDateTime.now());
     }
 }

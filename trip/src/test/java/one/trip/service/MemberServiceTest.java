@@ -1,3 +1,7 @@
+/*
+
+메모리레포지토라를 아용한 서비스 테스트
+
 package one.trip.service;
 
 import one.trip.domain.Member;
@@ -37,3 +41,4 @@ public class MemberServiceTest {
         assertEquals(member.getId(), findMember.getId());
     }
 }
+*/
